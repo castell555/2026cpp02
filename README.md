@@ -1,3 +1,5 @@
+중간 : 13장까지
+
 classDiagram
 
 &#x20;   class Beverage {
