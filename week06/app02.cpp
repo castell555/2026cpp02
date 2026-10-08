@@ -5,14 +5,14 @@ using namespace std;
 class DormitoryStudent {
 public:
 	void warn() {
-		cout << "ë²Œì ë¶€ì—¬!\n";
+		cout << "¹úÁ¡ºÎ¿©!\n";
 	};
 };
 
 class UndergraduateStudent {
 public:
 	void warn() {
-		cout << "í•™ì‚¬ê²½ê³ !\n";
+		cout << "ÇÐ»ç°æ°í!\n";
 	};
 };
 
@@ -22,6 +22,8 @@ class UndergraduateDormitoryStudent : public DormitoryStudent, public Undergradu
 int main()
 {
 	UndergraduateDormitoryStudent uds;
-	//uds.warn(); // ëª¨í˜¸í•˜ë‹¤
+	uds.DormitoryStudent::warn();
+	uds.UndergraduateStudent::warn();
+
 	return 0;
 }
