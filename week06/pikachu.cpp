@@ -2,5 +2,5 @@
 
 void Pikachu::attack() const
 {
-	cout << "ÇÇÄ«Ãò 10¸¸ º¼Æ®" << endl;
+	cout << "피카츄 10만 볼트" << endl;
 }
