@@ -20,7 +20,7 @@ public:
 		return backup;
 	}
 	Complex operator++() {  // 전위연산
-
+		return Complex(++this->real, this->imaginary);
 	}
 
 	int getReal() const {
