@@ -1,4 +1,4 @@
-ì¤‘ê°„ : 13ì¥ê¹Œì§€
+Áß°£ : 13Àå±îÁö
 
 classDiagram
 
@@ -58,3 +58,6 @@ classDiagram
 
 &#x20;   Receipt ..> Beverage : Dependency (Use-a)
 
+
+week07
+ÀüÀ§¿¬»êÀÚ ÈÄÀ§¿¬»êÀÚ¸¦ ±¸ºĞÇÏ±â À§ÇÑ °ÍÀÌ intÀÌ´Ù.
