@@ -7,7 +7,7 @@ private:
 public:
 	DynamicArray(int size);
 	virtual ~DynamicArray();
-	int getsize() const;
+	int getSize() const;
 
 	void setValue(int idx, int value);
 	int getValue(int idx) const;
