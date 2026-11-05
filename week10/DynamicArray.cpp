@@ -1,6 +1,7 @@
 #include "DynamicArray.h"
 
 DynamicArray::DynamicArray(int size) {
+	this->size = size;
 	ptr = new int[size]; // 동적할당(heap memory)
 }
 
@@ -15,7 +16,10 @@ int DynamicArray::getsize() const
 
 void DynamicArray::setValue(int idx, int value)
 {
-	ptr[idx] = value;
+	if (idx >= 0 && idx < getsize())
+		ptr[idx] = value;
+	else
+		throw 1000; // 예외 발생
 }
 
 int DynamicArray::getValue(int idx) const
