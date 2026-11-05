@@ -24,5 +24,7 @@ void DynamicArray::setValue(int idx, int value)
 
 int DynamicArray::getValue(int idx) const
 {
-	return ptr[idx];
+	if (idx >= 0 && idx < getsize())
+		return ptr[idx];
+	throw 1002; // 예외 발생
 }
