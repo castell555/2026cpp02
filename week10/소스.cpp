@@ -18,7 +18,7 @@ int main() {
 		if (errorCode == 1000)
 			cout << errorCode << ": 할당 오류. 인덱스 범위를 벗어남\n";
 		else
-			cout << errorCode << ": 호출 오류. 인덱스 범위를 벗어남\n";
+			cout << errorCode << ": 호출 `오류. 인덱스 범위를 벗어남\n";
 	}
 
 	return 0;
