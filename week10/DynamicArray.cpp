@@ -5,6 +5,7 @@ DynamicArray::DynamicArray(int size)
 {
 	this->size = size;
 	ptr = new int[size];  // 동적 할당 (heap memory)
+	throw MyException(3000, "메모리 오류", this);
 }
 
 DynamicArray::~DynamicArray()
